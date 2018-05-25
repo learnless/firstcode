@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/first_button_finish"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="销毁该活动"/>
+
+    <Button
+        android:id="@+id/first_button_forward"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="显示跳转到别的活动"/>
+
+    <Button
+        android:id="@+id/first_button_implicit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="隐式跳转别的活动"/>
+
+    <Button
+        android:id="@+id/first_button_more"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="更多隐式跳转别的活动"/>
+
+    <Button
+        android:id="@+id/first_button_dialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="跳转到对话框活动"/>
+
+</LinearLayout>
