@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:focusable="true"
+        android:focusableInTouchMode="true">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="文本框"
+            android:textColor="#00ff00"
+            android:textSize="26dp" />
+
+        <Button
+            android:id="@+id/main_btn01"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="显示/隐藏图片"
+            android:textAllCaps="false" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="文本输入框"
+            android:maxLines="2"/>
+
+        <ImageView
+            android:id="@+id/main_imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="centerCrop"
+            android:src="@drawable/p01" />
+
+        <ProgressBar
+            android:id="@+id/main_progressBar01"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <ProgressBar
+            android:id="@+id/main_progressBar02"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:max="100" />
+
+        <Button
+            android:id="@+id/main_btn02"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="对话框AlertDialog"/>
+
+        <Button
+            android:id="@+id/main_btn03"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="对话框ProgressDialog"/>
+
+        <Button
+            android:id="@+id/main_btn04"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="LinearLayout布局"/>
+
+        <Button
+            android:id="@+id/main_btn05"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="RelativeLayout布局"/>
+
+        <Button
+            android:id="@+id/main_btn06"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="FrameLayout布局"/>
+
+        <Button
+            android:id="@+id/main_btn07"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="百分百PercentRelativeLayout布局"/>
+
+        <Button
+            android:id="@+id/main_btn08"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="百分百PercentFrameLayout布局"/>
+
+        <Button
+            android:id="@+id/main_btn09"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="自定义控件"/>
+
+    </LinearLayout>
+</ScrollView>
